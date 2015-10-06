@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>ToDo Tutorial</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link href='https://fonts.googleapis.com/css?family=Open+Sans|Roboto+Slab|Quicksand|Oswald' rel='stylesheet' type='text/css' />
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css" />
+        <link href='css/style.css' rel='stylesheet' type='text/css' />
+    </head>
+    <body>
+        <div class="top-bar brand-bg">
+            <a href="#" class="app-title">Hero App</a>
+        </div>
+        <div class="nav-container">
+            <ul>
+                <li><span>Categories</span>
+                    <ul>
+                        <li><a href="#"><span class="fa fa-plus-circle"></span> new category</a></li>
+                    </ul>
+                </li>
+                <li><span>Settings</span>
+                    <ul>
+                        <li><a href="#">logout</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        <div class="view-container">
+            <div class="tabs">
+                <ul>
+                    <li class="location"><span>Test <span class="fa fa-chevron-right"></span></span></li>
+                    <li class="active"><a href="#">Uncompleted</a></li>
+                    <li><a href="#">Completed</a></li>
+                    <li><a href="#">All</a></li>
+                </ul>
+                <div class="clear"></div>
+                <div class="tab">
+                    <div class="content-container">
+                        <ul class="todos">
+                            <li>
+                                <a href="#"><span class="fa fa-square-o"></span> Todo #1</a>
+                            </li>
+                            <li>
+                                <a href="#"><span class="fa fa-check-square"></span> Todo #2</a>
+                                <span class="description">We should probably do something</span>
+                            </li>
+                            <li>
+                                <a href="#"><span class="fa fa-square-o"></span> Todo #3</a>
+                            </li>
+                        </ul>
+                        <a href="#"><span class="fa fa-plus-circle"></span> create todo</a>
+                        <a href="#"><span class="fa fa-minus-circle"></span> hide</a>
+                        <form>
+                            <h2>Create ToDo</h2>
+                            <p>
+                                <label>Title</label>
+                                <input type="text" class="light" />
+                            </p>
+                            <p>
+                                <label>Description</label>
+                                <input type="text" class="light" />
+                            </p>
+                            <p>
+                                <a href="#"><span class="fa fa-plus-circle"></span> save</a>
+                            </p>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="/js/app.js"></script>
+    </body>
+</html>
