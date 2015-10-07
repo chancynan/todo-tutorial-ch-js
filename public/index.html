@@ -49,9 +49,9 @@
                                 <a href="#"><span class="fa fa-square-o"></span> Todo #3</a>
                             </li>
                         </ul>
-                        <a href="#"><span class="fa fa-plus-circle"></span> create todo</a>
-                        <a href="#"><span class="fa fa-minus-circle"></span> hide</a>
-                        <form>
+                        <a href="#" onclick="formDisplayToggle();" id="showLink"><span class="fa fa-plus-circle"></span> create todo</a>
+                        <a href="#" onclick="formDisplayToggle();" id="hideLink" style="display:none"><span class="fa fa-minus-circle"></span> hide</a>
+                        <form id="createForm" style="display:none">
                             <h2>Create ToDo</h2>
                             <p>
                                 <label>Title</label>
